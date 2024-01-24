@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.bg {
+  background-color: #93c5fd;
+  padding: 70px;
+  margin: 20px;
+  margin-right: 350px;
+  border: solid #cbd2d9 2px;
+}
+.heading {
+  padding-left: 22px;
+  color: #323f4b;
+  font-size: 30px;
+}
+.question {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+}
+.country {
+  padding-left: 25px;
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card {
+  background-color: #f8fafc;
+  border: solid #f8fafc 2px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 1000px) {
+  .bg {
+    margin-right: 770px;
+    padding: 100px;
+  }
+  .card {
+    padding: 10px;
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .bg {
+    padding: 20px;
+    margin-right: 0px;
+    margin: 10px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+  .question {
+    font-size: 10px;
+    padding-top: 2px;
+  }
+  .country {
+    padding-left: 25px;
+    font-size: 17px;
+  }
+}
+.a {
+  display: flex;
+}
+.select {
+  margin: 10px;
+  padding-right: 60px;
+  outline: none;
+  margin-left: 25px;
+  color: #000000;
+  font-weight: 700;
+}
